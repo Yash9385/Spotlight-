@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magical Login Lamp</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hero">
+  
+ <div class="lamp">
+  <div class="wire"></div>
+
+  <svg class="lamp-svg" viewBox="0 0 200 200">
+    <path d="M60 60 L140 60 L120 110 L80 110 Z" class="shade"/>
+    <circle cx="100" cy="125" r="10" class="bulb-light" id="bulb"/>
+    <rect x="95" y="110" width="10" height="10" fill="#555"/>
+  </svg>
+
+  <button id="toggleBtn">LOGIN</button>
+</div>
+
+
+  <!-- Spotlight SVG -->
+  <!-- Spotlight SVG -->
+     <div class="spotlight">
+
+<svg class="spotlight" viewBox="0 0 200 200" preserveAspectRatio="none">
+  <defs>
+    <radialGradient id="grad" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="rgba(255,255,200,0.9)" />
+      <stop offset="100%" stop-color="rgba(255,255,200,0)" />
+    </radialGradient>
+  </defs>
+  <polygon points="100,0 0,200 200,200" fill="url(#grad)" />
+</svg></div>
+
+  <!-- Login Card -->
+  <div class="login-card" id="card">
+    <h2>Welcome Back</h2>
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <button class="signin">Sign In</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
