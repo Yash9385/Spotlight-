@@ -101,7 +101,7 @@ body{
 /* Glass Login Card */
 .login-card{
   position:absolute;
-  top:180px;
+  top:280px;
   left:50%;
   transform:translateX(-50%) scale(0.9);
   width:300px;
